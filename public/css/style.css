@@ -1,0 +1,71 @@
+.retalify-header {}
+
+.retalify-main {
+    background: #05CB95;
+    height: 100vh;
+}
+
+.retalify-container {
+    background: #05CB95;
+    position: absolute;
+    margin: 0 auto;
+    min-width: 200px;
+    min-height: 100px;
+    width: 40%;
+    height: 20%;
+    top: 35%;
+    left: 30%;
+    border-width: thick;
+    border-style: solid;
+    border-color: #FFFFFF;
+}
+
+.retalify-content {
+    color: #FFFFFF;
+    position: absolute;
+    margin: 0 auto;
+    top: 45%;
+    left: 25%;
+}
+
+#txt-stay-tuned {
+    font-size: 80px;
+}
+
+@media all and (max-width: 1500px) {
+    #txt-stay-tuned {
+        font-size: 70px;
+    }
+}
+
+@media all and (max-width: 1400px) {
+    #txt-stay-tuned {
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 1100px) {
+    #txt-stay-tuned {
+        font-size: 50px;
+    }
+}
+
+@media all and (max-width: 900px) {
+    #txt-stay-tuned {
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 800px) {
+    #txt-stay-tuned {
+        font-size: 30px;
+    }
+}
+
+@media all and (max-width: 600px) {
+    #txt-stay-tuned {
+        font-size: 20px;
+    }
+}
+
+.retalify-footer {}
