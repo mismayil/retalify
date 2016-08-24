@@ -1,0 +1,28 @@
+{
+  "name": "retalify",
+  "description": "Connecting brands with retailers",
+  "version": "0.0.1",
+  "private": true,
+  "license": "UNLICENSED",
+  "homepage": "www.retalify.com",
+  "dependencies": {
+    "underscore": "1.6.x"
+  },
+  "devDependencies": {
+    "browserify": "latest"
+  },
+  "contributors": [
+    {
+      "name": "Mahammad Ismayilzada",
+      "email": "mismayilza@gmail.com"
+    },
+    {
+      "name": "Riyad Hasanov",
+      "email": "riyad.hasanov@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mismayil/retalify"
+  }
+}
