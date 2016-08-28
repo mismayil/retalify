@@ -1,0 +1,27 @@
+.home-section-cover {
+    position: relative;
+    height: 800px;
+    width: auto;
+    background: url('../img/retalify-cover.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.home-slogan {
+    font-size: 60px;
+    padding-top: 160px;
+    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    line-height: 1;
+    color: #767777;
+    font-weight: 500;
+}
+
+.retalify-home .retalify-fab {
+    position: absolute;
+    right: 50%;
+    bottom: -26px;
+}
+
+.home-section-discover {
+    position: relative;
+    padding: 60px;
+}

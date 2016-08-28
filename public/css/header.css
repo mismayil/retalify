@@ -1,0 +1,48 @@
+/* Header style */
+
+.retalify-header {
+    background-color: white;
+}
+
+.retalify-header .material-icons {
+    color: #767777 !important;
+}
+
+.retalify-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.header-title {
+    position: relative;
+    left: 15%;
+}
+
+.header-logo-image {
+    height: 60px;
+    width: 100px;
+}
+
+.header-btn-request-demo {
+    position: relative;
+    left: 57%;
+}
+
+.header-container-navigation {
+}
+
+.header-navigation {
+}
+
+.header-navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 60px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.header-navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #8bc34a;
+}
