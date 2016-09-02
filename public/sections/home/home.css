@@ -1,8 +1,15 @@
-.home-section-cover {
+.retalify-content {
     position: relative;
+}
+
+.home-container {
+    position: relative;
+}
+
+.home-section-cover {
     height: 800px;
     width: auto;
-    background: url('../img/retalify-cover.jpg') center center no-repeat;
+    background: url('../../img/retalify-cover.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -15,11 +22,11 @@
     font-weight: 500;
 }
 
-.retalify-home .retalify-fab {
-    position: absolute;
-    right: 50%;
-    bottom: -26px;
-}
+/*.retalify-home .retalify-fab {*/
+    /*position: absolute;*/
+    /*right: 50%;*/
+    /*bottom: -26px;*/
+/*}*/
 
 .home-section-discover {
     position: relative;

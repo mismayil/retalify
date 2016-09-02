@@ -2,7 +2,10 @@
  * Created by mismayil on 27/08/16.
  */
 
-var app = angular.module('retalify', []);
-app.controller('retalify-controller', function ($scope) {
+'use strict';
+
+angular
+    .module('retalify', ['ngRoute', 'ngMaterial', 'firebase', 'app.core', 'app.routes'])
+    .controller('retalify-controller', function ($scope) {
     
 });

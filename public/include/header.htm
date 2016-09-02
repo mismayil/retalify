@@ -1,22 +1,22 @@
-<header class="retalify-header mdl-layout__header mdl-layout__header--waterfall">
-    <div class="mdl-layout__header-row">
-        <div class="header-container-navigation">
-            <nav class="header-navigation mdl-navigation">
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Discover</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">How it works</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">About us</a>
-                <a class="mdl-navigation__link mdl-typography--text-uppercase" href="">Contact</a>
-            </nav>
+<md-toolbar class="header-toolbar">
+    <div layout="row">
+        <div class="md-toolbar-tools">
+            <md-nav-bar md-selected-nav-item="currentNavItem" class="header-nav" nav-bar-aria-label="nav links">
+                <md-nav-item md-nav-click="" name="discover">Discover</md-nav-item>
+                <md-nav-item md-nav-click="" name="howitworks">How it works</md-nav-item>
+                <md-nav-item md-nav-click="" name="aboutus">About us</md-nav-item>
+                <md-nav-item md-nav-click="" name="contact">Contact</md-nav-item>
+            </md-nav-bar>
         </div>
-        <div class="header-title mdl-layout-title">
+        <div class="header-title">
             <img class="header-logo-image" src="../img/retalify-logo.png">
         </div>
-        <button class="header-btn-request-demo mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast"
-                id="btn-request-demo">
-            Request demo
-        </button>
+        <div class="header-div-btn-request-demo">
+            <md-button class="header-btn-request-demo md-primary md-raised">Request demo</md-button>
+        </div>
     </div>
-</header>
+</md-toolbar>
+
 
 
 

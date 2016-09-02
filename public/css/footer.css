@@ -1,35 +1,36 @@
 /* Footer style */
 
 .retalify-footer {
-    background-color: #fafafa;
     position: relative;
+    background-color: whitesmoke;
+    margin: 0;
 }
 
 .footer-section-subscribe {
-    margin-top: 2%;
+    margin: 2%;
 }
 
 .footer-section-copyright {
-    position: relative;
-    left: 46%;
-    margin-top: 2%;
-}
-
-.footer-section-social {
-    position: relative;
-    left: 45%;
-    margin-top: 2%;
-}
-
-.retalify-footer .retalify-fab {
     position: absolute;
-    right: 50%;
-    top: -26px;
+    top: 100px;
+    left: 20%;
 }
 
-.retalify-footer .retalify-txtfield {
-    margin-left: 5%;
-}
+/*.footer-section-social {*/
+    /*position: absolute;*/
+    /*left: 45%;*/
+    /*margin-top: 2%;*/
+/*}*/
+
+/*.retalify-footer .retalify-fab {*/
+    /*position: absolute;*/
+    /*right: 50%;*/
+    /*top: -26px;*/
+/*}*/
+
+/*.retalify-footer .retalify-txtfield {*/
+    /*margin-left: 5%;*/
+/*}*/
 
 .footer-btn-subscribe {
     margin-left: 5%;
