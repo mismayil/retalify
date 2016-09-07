@@ -5,7 +5,7 @@
 'use strict';
 
 angular
-    .module('retalify', ['ngRoute', 'ngMaterial', 'firebase', 'app.core', 'app.routes'])
+    .module('retalify', ['ngRoute', 'ngMaterial', 'firebase', 'app.core', 'app.routes', 'app.config', 'app.services'])
     .controller('retalify-controller', function ($scope) {
     
 });
