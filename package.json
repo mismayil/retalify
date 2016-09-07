@@ -6,11 +6,13 @@
   "license": "UNLICENSED",
   "homepage": "www.retalify.com",
   "dependencies": {
-    "underscore": "1.6.x"
+    "angular": "^1.5.8",
+    "angular-animate": "^1.5.8",
+    "angular-aria": "^1.5.8",
+    "angular-material": "^1.1.1",
+    "firebase": "^3.3.0"
   },
-  "devDependencies": {
-    "browserify": "latest"
-  },
+  "devDependencies": {},
   "contributors": [
     {
       "name": "Mahammad Ismayilzada",
