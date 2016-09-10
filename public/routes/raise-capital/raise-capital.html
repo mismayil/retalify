@@ -1,0 +1,72 @@
+<div class="rc-container" layout="column">
+    <div class="rc-section-company-info">
+        <md-card>
+            <md-card-content>
+                <md-input-container class="md-block">
+                    <label>Title</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Legal Entity Name</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Website</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Brand name</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Industry</label>
+                    <md-select ng-model="rc.industry">
+                        <md-option>Apparel</md-option>
+                        <md-option>Beauty & Cosmetics</md-option>
+                        <md-option>Beverage</md-option>
+                        <md-option>E-Commerce</md-option>
+                        <md-option>Food</md-option>
+                        <md-option>Household products</md-option>
+                        <md-option>Infant products</md-option>
+                        <md-option>Pet food & Grooming</md-option>
+                        <md-option>Private label</md-option>
+                        <md-option>Restaurants</md-option>
+                        <md-option>Retail</md-option>
+                        <md-option>Sporting goods</md-option>
+                        <md-option>Other</md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Number of employees</label>
+                    <md-select ng-model="rc.numEmployees">
+                        <md-option>1-5</md-option>
+                        <md-option>6-10</md-option>
+                        <md-option>10+</md-option>
+                    </md-select>
+                </md-input-container>
+            </md-card-content>
+        </md-card>
+    </div>
+    <div class="rc-section-funding-info">
+        <md-card>
+            <md-card-content>
+                <md-input-container class="md-block">
+                    <label>Start Raising in</label>
+                    <md-select ng-model="rc.raiseTime">
+                        <md-option>1 month</md-option>
+                        <md-option>2 months</md-option>
+                    </md-select>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Target</label>
+                    <input>
+                </md-input-container>
+                <p>Raise Type</p>
+                <md-radio-group>
+                    <md-radio-button value="Equity">Equity</md-radio-button>
+                    <md-radio-button value="Convertible Note">Convertible Note</md-radio-button>
+                </md-radio-group>
+            </md-card-content>
+        </md-card>
+    </div>
+</div>

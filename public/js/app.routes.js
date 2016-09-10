@@ -11,6 +11,18 @@ angular
 function config($routeProvider) {
     $routeProvider.
         when('/', {
-            templateUrl:'sections/home/home.htm', controller: 'homeController'
+            templateUrl:'routes/home/home.html',
+            controller: 'homeController as home'
+        })
+        .when('/raise-capital', {
+            templateUrl: 'routes/raise-capital/raise-capital.html',
+            controller: 'raiseCapitalController as rc'
+        })
+        .when('/demo', {
+            templateUrl: 'routes/demo/demo.html',
+            controller: 'demoController as demo'
+        })
+        .otherwise({
+            redirectTo: '/'
         });
 }

@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "retalify-b39aa"
+    "default": "retalify-b39aa",
+    "dev": "retalify-dev",
+    "prod": "retalify-b39aa"
   }
 }

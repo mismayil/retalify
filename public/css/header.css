@@ -1,7 +1,6 @@
 /* Header style */
 
-.retalify-header {
-}
+.retalify-header {}
 
 .retalify-header .header-toolbar {
     position: relative;
@@ -27,7 +26,7 @@
     width: 100px;
 }
 
-.header-div-btn-request-demo {
+.header-div-btn-get-demo {
     position: absolute;
     left: 90%;
     top: 20%;
