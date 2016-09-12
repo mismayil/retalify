@@ -6,9 +6,5 @@ angular
     .module('app.core')
     .controller('headerController', headerController);
 
-function headerController($scope, $location, $anchorScroll) {
-    $scope.scrollTo = function (anchor) {
-        $location.hash(anchor);
-        $anchorScroll();
-    };
+function headerController($scope) {
 }

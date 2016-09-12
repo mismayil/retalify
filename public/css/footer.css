@@ -2,26 +2,40 @@
 
 .retalify-footer {
     position: relative;
-    background-color: whitesmoke;
+    background-color: #424242;
+    bottom: 0;
     margin: 0;
 }
 
+.footer-container {
+    position: relative;
+}
+
 .footer-section-subscribe {
-    margin: 2%;
+    position: relative;
+    left: 10%;
+    margin-top: 2%;
 }
 
-.footer-section-copyright {
-    position: absolute;
-    top: 100px;
-    left: 20%;
+.footer-section-subscribe md-input-container {
+    margin-left: 5%;
 }
-
-/*.footer-section-social {*/
-    /*position: absolute;*/
-    /*left: 45%;*/
-    /*margin-top: 2%;*/
-/*}*/
 
 .footer-btn-subscribe {
     margin-left: 5%;
+}
+
+.footer-section-copyright {
+    position: relative;
+    left: 45%;
+    color: grey;
+}
+
+.footer-section-social {
+    position: relative;
+    left: 43%;
+}
+
+.footer-section-social md-button {
+    background-color: yellow !important;
 }

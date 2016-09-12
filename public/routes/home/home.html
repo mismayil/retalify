@@ -1,95 +1,154 @@
 <div class="home-container" layout="column">
     <a id="top"></a>
-    <div class="home-section-cover">
+
+    <section class="home-section-cover">
         <div class="home-slogan">
             <p>Propel Innovation</p>
             <p>Meet forward thinking creators and investors</p>
         </div>
-        <div class="home-div-btn-raise-capital">
-            <md-button class="home-btn-raise-capital md-raised"><a href="#/raise-capital">Raise Capital</a></md-button>
+        <div class="home-btn-raise-capital">
+            <md-button class="md-raised" ng-href="#raise-capital">Raise Capital</md-button>
         </div>
-    </div>
-    <div class="home-section-about-us">
+        <div class="home-btn-down">
+            <md-button class="md-fab md-primary" aria-label="Scroll Down" ng-href="#/#about-us">
+                <md-icon md-svg-src="img/icons/ic_keyboard_arrow_down_white_24px.svg"></md-icon>
+            </md-button>
+        </div>
+    </section>
+
+    <section class="home-section-about-us">
         <a id="about-us"></a>
-        <h1>Our mission</h1>
-        <md-card>
-            <md-card-content>
-                We built Retalify to empower entrepreneurs realize their goals. Retalify equips entrepreneurs with resources
-                and support they need to grow their business. By joining Retalify commmunity, investors can meet forward thinking
-                creators and explore investment opportunities.
-            </md-card-content>
-        </md-card>
-    </div>
-    <div class="home-section-how-it-works">
-        <a id="how-it-works"></a>
-        <h1>How it works</h1>
-        <div class="for-investors">
-            <h1>FOR INVESTORS</h1>
-            <div>
-                <md-card>
-                   <md-card-content>Discover forward-thinking consumer companies</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>Hear fascinating stories behind some of the world's most creative brands</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>Communicate directly with company's CEO and team</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>Invest with confidence</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>
-                        24/7 access to Dashboard that includes Portfolio, Key Performance Indicators and Financials
-                    </md-card-content>
-                </md-card>
-            </div>
+        <div class="home-section-title">
+            <h2>OUR MISSION</h2>
         </div>
-        <div class="for-entrepreneurs">
-            <h1>FOR ENTREPRENEURS</h1>
-            <div>
-                <md-card>
-                    <md-card-content>Connect with reputable investors</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>
-                        After a successful raise, connect with local professionals that will drive meaningful results
-                        for your company. For free
-                    </md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>Streamline funding process</md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>
-                        24/7 access to Dashboard that includes Key Performance Indicators, Integrated Analytics and tools
-                        to manage Investor Relations
-                    </md-card-content>
-                </md-card>
-                <md-card>
-                    <md-card-content>Consult Retalify team throughout the process</md-card-content>
-                </md-card>
-            </div>
-        </div>
-    </div>
-    <div class="home-section-discover">
-        <a id="discover"></a>
-        <h1>Discover</h1>
-        <h1>Discover Featured companies.Coming soon</h1>
-    </div>
-    <div class="home-section-contact">
-        <a id="contact"></a>
-        <h1>Contact</h1>
-        <div>
+        <div class="home-section-content">
             <md-card>
+                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-card-content>
+                    <p>
+                        We built Retalify to empower entrepreneurs realize their goals.
+                    </p>
+                    <p>
+                        Retalify equips entrepreneurs with resources
+                        and support they need to grow their business. By joining Retalify commmunity, investors can meet forward thinking
+                        creators and explore investment opportunities.
+                    </p>
+                </md-card-content>
+            </md-card>
+        </div>
+    </section>
+
+    <section class="home-section-how-it-works">
+        <a id="how-it-works"></a>
+        <div class="home-section-title">
+            <h1>HOW IT WORKS</h1>
+        </div>
+        <div class="home-section-content">
+            <div class="for-investors">
+                <div class="home-section-subtitle">
+                    <h3>FOR INVESTORS</h3>
+                </div>
+                <div class="home-section-subcontent">
+                    <div layout="row">
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Discover forward-thinking consumer companies</md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Hear fascinating stories behind some of the world's most creative brands</md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Communicate directly with company's CEO and team</md-card-content>
+                        </md-card>
+                    </div>
+                    <div layout="row">
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Invest with confidence</md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>
+                                24/7 access to Dashboard that includes Portfolio, Key Performance Indicators and Financials
+                            </md-card-content>
+                        </md-card>
+                    </div>
+                </div>
+            </div>
+
+            <div class="for-entrepreneurs">
+                <div class="home-section-subtitle">
+                    <h3>FOR ENTREPRENEURS</h3>
+                </div>
+                <div class="home-section-subcontent">
+                    <div layout="row">
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Connect with reputable investors</md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>
+                                After a successful raise, connect with local professionals that will drive meaningful results
+                                for your company. For free
+                            </md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Streamline funding process</md-card-content>
+                        </md-card>
+                    </div>
+                    <div layout="row">
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>
+                                24/7 access to Dashboard that includes Key Performance Indicators, Integrated Analytics and tools
+                                to manage Investor Relations
+                            </md-card-content>
+                        </md-card>
+                        <md-card>
+                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-card-content>Consult Retalify team throughout the process</md-card-content>
+                        </md-card>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-section-discover">
+        <a id="discover"></a>
+        <div class="home-section-title">
+            <h1>Discover</h1>
+        </div>
+        <div class="home-section-content">
+            <md-card>
+                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-card-title>COMING SOON</md-card-title>
+            </md-card>
+        </div>
+    </section>
+
+    <section class="home-section-contact">
+        <a id="contact"></a>
+        <div class="home-section-title">
+            <h1>Contact</h1>
+        </div>
+        <div class="home-section-content" layout="row">
+            <md-card>
+                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
                 <md-card-content>Follow us on Twitter, Facebook</md-card-content>
             </md-card>
             <md-card>
+                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
                 <md-card-content>Support Send us an email at support@retalify.com</md-card-content>
             </md-card>
             <md-card>
+                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
                 <md-card-content>For inquiries press@retalify.com</md-card-content>
             </md-card>
         </div>
-    </div>
+    </section>
 </div>

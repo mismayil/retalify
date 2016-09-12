@@ -6,10 +6,16 @@ html {
 
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 a img{
     border: 0;
+}
+
+main {
+    margin-top: 14px;
+    margin-bottom: 50px;
 }
 
 .retalify-layout {}
@@ -18,17 +24,6 @@ a img{
 
 .retalify-txtfield {}
 
-.retalify-fab {
-    z-index: 3;
-    background: #64ffda;
-    color: black !important;
-}
+.retalify-fab {}
 
-.retalify-link {
-    text-decoration: none;
-    color: #8bc34a !important;
-}
-
-.retalify-link:hover {
-    color: #7cb342 !important;
-}
+.retalify-link {}

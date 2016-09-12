@@ -1,19 +1,17 @@
-<md-toolbar class="header-toolbar" ng-controller="headerController">
-    <div layout="row">
-        <div class="md-toolbar-tools">
-            <md-nav-bar md-selected-nav-item="currentNavItem" class="header-nav" nav-bar-aria-label="nav links">
-                <md-nav-item md-nav-click="scrollTo('discover')" name="discover">Discover</md-nav-item>
-                <md-nav-item md-nav-click="scrollTo('how-it-works')" name="how-it-works">How it works</md-nav-item>
-                <md-nav-item md-nav-click="scrollTo('about-us')" name="about-us">Our mission</md-nav-item>
-                <md-nav-item md-nav-click="scrollTo('contact')" name="contact">Contact</md-nav-item>
-            </md-nav-bar>
-            <div class="header-title">
-                <!--<img class="header-logo-image" src="../img/retalify-logo.png">-->
-                <h1>retalify</h1>
-            </div>
-            <div class="header-div-btn-get-demo">
-                <md-button class="header-btn-get-demo md-primary md-raised">get a demo</md-button>
-            </div>
+<md-toolbar class="header-toolbar" ng-controller="headerController" md-whiteframe="4">
+    <div class="md-toolbar-tools">
+        <md-nav-bar md-selected-nav-item="currentNavItem" class="header-nav" nav-bar-aria-label="nav links">
+            <md-nav-item md-nav-href="#/#about-us" name="about-us">Our mission</md-nav-item>
+            <md-nav-item md-nav-href="#/#how-it-works" name="how-it-works">How it works</md-nav-item>
+            <md-nav-item md-nav-href="#/#discover" name="discover">Discover</md-nav-item>
+            <md-nav-item md-nav-href="#/#contact" name="contact">Contact</md-nav-item>
+        </md-nav-bar>
+        <div class="header-title">
+            <!--<img class="header-logo-image" src="../img/retalify-logo.png">-->
+            <h1>retalify</h1>
+        </div>
+        <div class="header-btn-get-demo">
+            <md-button class="md-primary md-raised">get a demo</md-button>
         </div>
     </div>
 </md-toolbar>

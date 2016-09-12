@@ -2,27 +2,91 @@
     position: relative;
 }
 
+.retalify-content section {
+    position: relative;
+}
+
 .home-container {
     position: relative;
 }
 
 .home-section-cover {
-    height: 800px;
+    height: 700px;
     width: auto;
     background: url('../../img/retalify-cover.jpg') center center no-repeat;
     background-size: cover;
 }
 
 .home-slogan {
-    font-size: 60px;
-    padding-top: 160px;
-    font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+    position: relative;
+    font-size: 20px;
+    top: 30%;
+    left: 35%;
     line-height: 1;
-    color: #767777;
+    color: whitesmoke;
     font-weight: 500;
 }
 
-.home-section-discover {
+.home-btn-raise-capital {
     position: relative;
-    padding: 60px;
+    top: 30%;
+    left: 48%;
 }
+
+.home-btn-down {
+    position: relative;
+    z-index: 1;
+    top: 74%;
+    left: 50%;
+}
+
+.home-section-title, .home-section-subtitle {
+    position: relative;
+    text-align: center;
+}
+
+.home-section-content {
+    position: relative;
+}
+
+.home-section-about-us {
+    margin-top: 80px;
+}
+
+.home-section-how-it-works {
+    margin-top: 80px;
+}
+
+.home-section-discover {
+    margin-top: 80px;
+}
+
+.home-section-contact {
+    margin-top: 80px;
+}
+
+.home-section-about-us .home-section-content {
+    left: 25%;
+}
+
+.home-section-about-us md-card {
+    width: 50%;
+}
+
+.home-section-how-it-works md-card {
+    width: 30%;
+}
+
+.home-section-discover .home-section-content {
+    left: 35%;
+}
+
+.home-section-discover md-card {
+    width: 30%;
+}
+
+.home-section-contact md-card {
+    width: 30%;
+}
+
+

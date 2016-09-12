@@ -7,5 +7,4 @@ angular
     .controller('homeController', homeController);
 
 function homeController($scope) {
-
 }
