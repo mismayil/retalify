@@ -3,30 +3,22 @@
 
     <section class="home-section-cover">
         <div class="home-slogan">
-            <p>Propel Innovation</p>
+            <p style="margin-left: 100px">Propel Innovation</p>
             <p>Meet forward thinking creators and investors</p>
         </div>
         <div class="home-btn-raise-capital">
-            <md-button class="md-raised" ng-href="#raise-capital">Raise Capital</md-button>
+            <md-button ng-href="#raise-capital" class="md-primary md-raised" md-theme="retalify-theme">Raise Capital</md-button>
         </div>
         <div class="home-btn-down">
-            <md-button class="md-fab md-primary" aria-label="Scroll Down" ng-href="#/#about-us">
+            <md-button class="md-fab" aria-label="Scroll Down" ng-href="#/#about-us" md-theme="retalify-theme">
                 <md-icon md-svg-src="img/icons/ic_keyboard_arrow_down_white_24px.svg"></md-icon>
             </md-button>
         </div>
-    </section>
-
-    <section class="home-section-about-us">
-        <a id="about-us"></a>
-        <div class="home-section-title">
-            <h2>OUR MISSION</h2>
-        </div>
-        <div class="home-section-content">
-            <md-card>
-                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
-                <md-card-content>
-                    <p>
-                        We built Retalify to empower entrepreneurs realize their goals.
+        <div class="home-mission">
+            <md-card md-theme="retalify-theme">
+                <md-card-content class="md-padding">
+                    <p style="text-align: center">
+                        <b>We built Retalify to empower entrepreneurs realize their goals.</b>
                     </p>
                     <p>
                         Retalify equips entrepreneurs with resources
@@ -51,25 +43,25 @@
                 <div class="home-section-subcontent">
                     <div layout="row">
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_search_black_48px.svg"></md-icon>
                             <md-card-content>Discover forward-thinking consumer companies</md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_group_black_48px.svg"></md-icon>
                             <md-card-content>Hear fascinating stories behind some of the world's most creative brands</md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_mode_comment_black_48px.svg"></md-icon>
                             <md-card-content>Communicate directly with company's CEO and team</md-card-content>
                         </md-card>
                     </div>
                     <div layout="row">
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_trending_up_black_48px.svg"></md-icon>
                             <md-card-content>Invest with confidence</md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_dashboard_black_48px.svg"></md-icon>
                             <md-card-content>
                                 24/7 access to Dashboard that includes Portfolio, Key Performance Indicators and Financials
                             </md-card-content>
@@ -85,31 +77,31 @@
                 <div class="home-section-subcontent">
                     <div layout="row">
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_attach_money_black_48px.svg"></md-icon>
                             <md-card-content>Connect with reputable investors</md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_group_work_black_48px.svg"></md-icon>
                             <md-card-content>
                                 After a successful raise, connect with local professionals that will drive meaningful results
                                 for your company. For free
                             </md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_fast_forward_black_48px.svg"></md-icon>
                             <md-card-content>Streamline funding process</md-card-content>
                         </md-card>
                     </div>
                     <div layout="row">
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_dashboard_black_48px.svg"></md-icon>
                             <md-card-content>
                                 24/7 access to Dashboard that includes Key Performance Indicators, Integrated Analytics and tools
                                 to manage Investor Relations
                             </md-card-content>
                         </md-card>
                         <md-card>
-                            <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                            <md-icon md-svg-src="img/icons/ic_mail_black_48px.svg"></md-icon>
                             <md-card-content>Consult Retalify team throughout the process</md-card-content>
                         </md-card>
                     </div>
@@ -125,11 +117,26 @@
         </div>
         <div class="home-section-content">
             <md-card>
-                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-icon md-svg-src="img/icons/ic_star_black_48px.svg"></md-icon>
                 <md-card-title>COMING SOON</md-card-title>
             </md-card>
         </div>
     </section>
+
+    <!--<section class="home-section-about-us">-->
+        <!--<a id="about-us"></a>-->
+        <!--<div class="home-section-title">-->
+            <!--<h2>ABOUT US</h2>-->
+        <!--</div>-->
+        <!--<div class="home-section-content">-->
+            <!--<md-card>-->
+                <!--<img src="img/retalify-cover.jpg" class="md-card-image" alt="">-->
+                <!--<md-card-content>-->
+                    <!--about us-->
+                <!--</md-card-content>-->
+            <!--</md-card>-->
+        <!--</div>-->
+    <!--</section>-->
 
     <section class="home-section-contact">
         <a id="contact"></a>
@@ -138,15 +145,15 @@
         </div>
         <div class="home-section-content" layout="row">
             <md-card>
-                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-icon md-svg-src="img/icons/ic_thumb_up_black_48px.svg"></md-icon>
                 <md-card-content>Follow us on Twitter, Facebook</md-card-content>
             </md-card>
             <md-card>
-                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-icon md-svg-src="img/icons/ic_mail_black_48px.svg"></md-icon>
                 <md-card-content>Support Send us an email at support@retalify.com</md-card-content>
             </md-card>
             <md-card>
-                <img src="img/retalify-cover.jpg" class="md-card-image" alt="">
+                <md-icon md-svg-src="img/icons/ic_forum_black_48px.svg"></md-icon>
                 <md-card-content>For inquiries press@retalify.com</md-card-content>
             </md-card>
         </div>

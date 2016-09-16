@@ -4,7 +4,13 @@
 
 angular
     .module('app.core')
-    .controller('homeController', homeController);
+    .controller('homeController', homeController)
+    .config(config);
 
 function homeController($scope) {
+
+}
+
+function config() {
+    
 }

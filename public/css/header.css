@@ -5,13 +5,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: whitesmoke;
     z-index: 2;
 }
 
 .retalify-header .header-toolbar {
     position: relative;
-    background-color: whitesmoke;
+    background-color: #F9F9F9;
 }
 
 .header-nav {
@@ -21,7 +20,7 @@
 
 .header-title {
     position: relative;
-    left: 13%;
+    left: 14%;
     top: 10%;
     font-size: 40px;
     font-weight: 800;
@@ -35,6 +34,6 @@
 
 .header-btn-get-demo {
     position: relative;
-    left: 45%;
+    left: 50%;
     top: 10%;
 }
