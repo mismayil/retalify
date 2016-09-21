@@ -11,7 +11,5 @@ function footerController($scope) {
 }
 
 function config($mdThemingProvider) {
-    $mdThemingProvider.theme('footer-dark', 'default')
-        .primaryPalette('yellow')
-        .dark();
+    // $mdThemingProvider.theme('footer-theme', 'retalify-theme').dark();
 }

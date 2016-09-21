@@ -1,20 +1,23 @@
-<md-toolbar class="header-toolbar" ng-controller="headerController" md-whiteframe="4">
-    <div class="md-toolbar-tools">
-        <md-nav-bar md-selected-nav-item="currentNavItem" class="header-nav" nav-bar-aria-label="nav links" md-theme="retalify-theme">
-            <md-nav-item md-nav-href="#/#how-it-works" name="how-it-works">How it works</md-nav-item>
-            <md-nav-item md-nav-href="#/#discover" name="discover">Discover</md-nav-item>
-            <!--<md-nav-item md-nav-href="#/#about-us" name="about-us">About us</md-nav-item>-->
-            <md-nav-item md-nav-href="#/#contact" name="contact">Contact</md-nav-item>
-        </md-nav-bar>
-        <div class="header-title">
-            <!--<img class="header-logo-image" src="../img/retalify-logo.png">-->
-            <h1>retalify</h1>
+<div id="header-container">
+    <md-toolbar id="header-toolbar" ng-controller="headerController" md-whiteframe="4">
+        <div class="md-toolbar-tools">
+            <md-nav-bar md-selected-nav-item="currentNavItem" id="header-nav" nav-bar-aria-label="nav links" md-theme="retalify-theme">
+                <md-nav-item md-nav-href="#/#how-it-works" name="how-it-works">How it works</md-nav-item>
+                <md-nav-item md-nav-href="#/#discover" name="discover">Discover</md-nav-item>
+                <!--<md-nav-item md-nav-href="#/#about-us" name="about-us">About us</md-nav-item>-->
+                <md-nav-item md-nav-href="#/#contact" name="contact">Contact</md-nav-item>
+            </md-nav-bar>
+            <div id="header-title">
+                <!--<img class="header-logo-image" src="../img/retalify-logo.png">-->
+                <h1>retalify</h1>
+            </div>
+            <div id="header-btn-get-demo">
+                <md-button class="md-primary md-raised" md-theme="retalify-theme">get a demo</md-button>
+            </div>
         </div>
-        <div class="header-btn-get-demo">
-            <md-button class="md-primary md-raised" md-theme="retalify-theme">get a demo</md-button>
-        </div>
-    </div>
-</md-toolbar>
+    </md-toolbar>
+</div>
+
 
 
 

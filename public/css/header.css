@@ -1,6 +1,6 @@
 /* Header style */
 
-.retalify-header {
+#retalify-header {
     position: fixed;
     top: 0;
     left: 0;
@@ -8,32 +8,34 @@
     z-index: 2;
 }
 
-.retalify-header .header-toolbar {
+#header-toolbar {
     position: relative;
     background-color: #F9F9F9;
 }
 
-.header-nav {
+#header-toolbar .md-toolbar-tools {
     position: relative;
-    top: 13%;
 }
 
-.header-title {
-    position: relative;
-    left: 14%;
-    top: 10%;
+#header-nav {
+    position: absolute;
+    bottom: 0;
+}
+
+#header-title {
+    position: absolute;
+    left: 50%;
     font-size: 40px;
     font-weight: 800;
-    color: teal;
+    color: #EF6C00;
 }
 
-.header-logo-image {
-    height: 100%;
-    width: 100px;
-}
+/*#header-logo-image {*/
+    /*height: 100%;*/
+    /*width: 100px;*/
+/*}*/
 
-.header-btn-get-demo {
-    position: relative;
-    left: 50%;
-    top: 10%;
+#header-btn-get-demo {
+    position: absolute;
+    right: 5%;
 }

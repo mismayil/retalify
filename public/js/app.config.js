@@ -22,7 +22,8 @@ function config($mdThemingProvider) {
 
     // Configure a theme
     $mdThemingProvider.theme('retalify-theme', 'default')
-        .backgroundPalette('grey', {'default':'200'})
-        .primaryPalette('teal')
-        .accentPalette('indigo').dark();
+        .backgroundPalette('grey')
+        .primaryPalette('orange', {'default':'800'})
+        .accentPalette('blue-grey')
+        .dark();
 }

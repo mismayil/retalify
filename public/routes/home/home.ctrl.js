@@ -12,5 +12,4 @@ function homeController($scope) {
 }
 
 function config() {
-    
 }

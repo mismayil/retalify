@@ -1,22 +1,26 @@
-<div class="home-container" layout="column">
+<div id="home-container" layout="column">
     <a id="top"></a>
 
-    <section class="home-section-cover">
-        <div class="home-slogan">
-            <p style="margin-left: 100px">Propel Innovation</p>
-            <p>Meet forward thinking creators and investors</p>
+    <section id="home-section-cover">
+        <div>
+            <iframe id="home-video" src="https://www.youtube.com/embed/XIoqbQqTmLw?autoplay=0&loop=1&controls=0&mute=1">
+            </iframe>
         </div>
-        <div class="home-btn-raise-capital">
+        <div id="home-slogan">
+            <p style="margin-left: 100px">Propel Innovation</p>
+            <p>Meet forward-thinking creators and investors</p>
+        </div>
+        <div id="home-btn-raise-capital">
             <md-button ng-href="#raise-capital" class="md-primary md-raised" md-theme="retalify-theme">Raise Capital</md-button>
         </div>
-        <div class="home-btn-down">
-            <md-button class="md-fab" aria-label="Scroll Down" ng-href="#/#about-us" md-theme="retalify-theme">
+        <div id="home-btn-down">
+            <md-button class="md-fab" aria-label="Scroll Down" ng-href="#/#how-it-works" md-theme="retalify-theme">
                 <md-icon md-svg-src="img/icons/ic_keyboard_arrow_down_white_24px.svg"></md-icon>
             </md-button>
         </div>
-        <div class="home-mission">
+        <div id="home-mission">
             <md-card md-theme="retalify-theme">
-                <md-card-content class="md-padding">
+                <md-card-content class="md-padding" flex>
                     <p style="text-align: center">
                         <b>We built Retalify to empower entrepreneurs realize their goals.</b>
                     </p>
@@ -30,39 +34,44 @@
         </div>
     </section>
 
-    <section class="home-section-how-it-works">
-        <a id="how-it-works"></a>
+    <a id="how-it-works"></a>
+
+    <section id="home-section-how-it-works" class="home-section">
         <div class="home-section-title">
             <h1>HOW IT WORKS</h1>
         </div>
         <div class="home-section-content">
-            <div class="for-investors">
+            <div id="for-investors">
                 <div class="home-section-subtitle">
                     <h3>FOR INVESTORS</h3>
                 </div>
                 <div class="home-section-subcontent">
                     <div layout="row">
                         <md-card>
+                            <md-icon md-svg-src="img/icons/ic_verified_user_black_48px.svg"></md-icon>
+                            <md-card-content flex>Sign up for a free account</md-card-content>
+                        </md-card>
+                        <md-card>
                             <md-icon md-svg-src="img/icons/ic_search_black_48px.svg"></md-icon>
-                            <md-card-content>Discover forward-thinking consumer companies</md-card-content>
+                            <md-card-content flex>Discover forward-thinking consumer companies</md-card-content>
                         </md-card>
                         <md-card>
-                            <md-icon md-svg-src="img/icons/ic_group_black_48px.svg"></md-icon>
-                            <md-card-content>Hear fascinating stories behind some of the world's most creative brands</md-card-content>
-                        </md-card>
-                        <md-card>
-                            <md-icon md-svg-src="img/icons/ic_mode_comment_black_48px.svg"></md-icon>
-                            <md-card-content>Communicate directly with company's CEO and team</md-card-content>
+                            <md-icon md-svg-src="img/icons/ic_video_label_black_48px.svg"></md-icon>
+                            <md-card-content flex>Hear fascinating stories behind some of the world's most creative brands</md-card-content>
                         </md-card>
                     </div>
                     <div layout="row">
                         <md-card>
+                            <md-icon md-svg-src="img/icons/ic_chat_bubble_outline_black_48px.svg"></md-icon>
+                            <md-card-content flex>Get in touch with company's CEO and team</md-card-content>
+                        </md-card>
+                        <md-card>
                             <md-icon md-svg-src="img/icons/ic_trending_up_black_48px.svg"></md-icon>
-                            <md-card-content>Invest with confidence</md-card-content>
+                            <md-card-content flex>Invest with confidence</md-card-content>
                         </md-card>
                         <md-card>
                             <md-icon md-svg-src="img/icons/ic_dashboard_black_48px.svg"></md-icon>
-                            <md-card-content>
+                            <md-card-content flex>
                                 24/7 access to Dashboard that includes Portfolio, Key Performance Indicators and Financials
                             </md-card-content>
                         </md-card>
@@ -70,39 +79,43 @@
                 </div>
             </div>
 
-            <div class="for-entrepreneurs">
+            <div id="for-entrepreneurs">
                 <div class="home-section-subtitle">
                     <h3>FOR ENTREPRENEURS</h3>
                 </div>
                 <div class="home-section-subcontent">
                     <div layout="row">
                         <md-card>
-                            <md-icon md-svg-src="img/icons/ic_attach_money_black_48px.svg"></md-icon>
-                            <md-card-content>Connect with reputable investors</md-card-content>
+                            <md-icon md-svg-src="img/icons/ic_verified_user_black_48px.svg"></md-icon>
+                            <md-card-content flex>Sign up for a free account</md-card-content>
                         </md-card>
                         <md-card>
-                            <md-icon md-svg-src="img/icons/ic_group_work_black_48px.svg"></md-icon>
-                            <md-card-content>
+                            <md-icon md-svg-src="img/icons/ic_work_black_48px.svg"></md-icon>
+                            <md-card-content flex>Connect with reputable investors</md-card-content>
+                        </md-card>
+                        <md-card>
+                            <md-icon md-svg-src="img/icons/ic_grade_black_48px.svg"></md-icon>
+                            <md-card-content flex>
                                 After a successful raise, connect with local professionals that will drive meaningful results
                                 for your company. For free
                             </md-card-content>
                         </md-card>
-                        <md-card>
-                            <md-icon md-svg-src="img/icons/ic_fast_forward_black_48px.svg"></md-icon>
-                            <md-card-content>Streamline funding process</md-card-content>
-                        </md-card>
                     </div>
                     <div layout="row">
                         <md-card>
+                            <md-icon md-svg-src="img/icons/ic_fast_forward_black_48px.svg"></md-icon>
+                            <md-card-content flex>Streamline funding process</md-card-content>
+                        </md-card>
+                        <md-card>
                             <md-icon md-svg-src="img/icons/ic_dashboard_black_48px.svg"></md-icon>
-                            <md-card-content>
+                            <md-card-content flex>
                                 24/7 access to Dashboard that includes Key Performance Indicators, Integrated Analytics and tools
                                 to manage Investor Relations
                             </md-card-content>
                         </md-card>
                         <md-card>
-                            <md-icon md-svg-src="img/icons/ic_mail_black_48px.svg"></md-icon>
-                            <md-card-content>Consult Retalify team throughout the process</md-card-content>
+                            <md-icon md-svg-src="img/icons/ic_question_answer_black_48px.svg"></md-icon>
+                            <md-card-content flex>Consult Retalify team throughout the process</md-card-content>
                         </md-card>
                     </div>
                 </div>
@@ -110,51 +123,70 @@
         </div>
     </section>
 
-    <section class="home-section-discover">
-        <a id="discover"></a>
+    <a id="discover"></a>
+
+    <section id="home-section-discover" class="home-section">
         <div class="home-section-title">
-            <h1>Discover</h1>
+            <h1>DISCOVER</h1>
         </div>
         <div class="home-section-content">
-            <md-card>
-                <md-icon md-svg-src="img/icons/ic_star_black_48px.svg"></md-icon>
-                <md-card-title>COMING SOON</md-card-title>
-            </md-card>
+            <div class="home-section-subcontent">
+                <div class="home-section-subtitle">
+                    <h3>FEATURED COMPANIES</h3>
+                </div>
+            </div>
+            <div layout="row">
+                <md-card>
+                    <md-icon md-svg-src="img/icons/ic_star_black_48px.svg"></md-icon>
+                    <md-card-content flex>
+                        COMING SOON
+                    </md-card-content>
+                </md-card>
+                <md-card>
+                    <md-icon md-svg-src="img/icons/ic_star_black_48px.svg"></md-icon>
+                    <md-card-content flex>
+                        COMING SOON
+                    </md-card-content>
+                </md-card>
+                <md-card>
+                    <md-icon md-svg-src="img/icons/ic_star_black_48px.svg"></md-icon>
+                    <md-card-content flex>
+                        COMING SOON
+                    </md-card-content>
+                </md-card>
+            </div>
         </div>
     </section>
 
-    <!--<section class="home-section-about-us">-->
-        <!--<a id="about-us"></a>-->
+    <!--<a id="about-us"></a>-->
+
+    <!--<section id="home-section-about-us" class="home-section">-->
         <!--<div class="home-section-title">-->
             <!--<h2>ABOUT US</h2>-->
         <!--</div>-->
         <!--<div class="home-section-content">-->
-            <!--<md-card>-->
-                <!--<img src="img/retalify-cover.jpg" class="md-card-image" alt="">-->
-                <!--<md-card-content>-->
-                    <!--about us-->
-                <!--</md-card-content>-->
-            <!--</md-card>-->
         <!--</div>-->
     <!--</section>-->
 
-    <section class="home-section-contact">
-        <a id="contact"></a>
+    <a id="contact"></a>
+
+    <section id="home-section-contact" class="home-section">
         <div class="home-section-title">
-            <h1>Contact</h1>
+            <h1>CONTACT</h1>
         </div>
         <div class="home-section-content" layout="row">
             <md-card>
                 <md-icon md-svg-src="img/icons/ic_thumb_up_black_48px.svg"></md-icon>
-                <md-card-content>Follow us on Twitter, Facebook</md-card-content>
+                <md-card-content flex>Follow us on <a href="https://twitter.com/Retalify" target="_blank">Twitter</a>,
+                    <a href="https://facebook.com" target="_blank">Facebook</a></md-card-content>
             </md-card>
             <md-card>
                 <md-icon md-svg-src="img/icons/ic_mail_black_48px.svg"></md-icon>
-                <md-card-content>Support Send us an email at support@retalify.com</md-card-content>
+                <md-card-content flex>Reach us at support@retalify.com</md-card-content>
             </md-card>
             <md-card>
                 <md-icon md-svg-src="img/icons/ic_forum_black_48px.svg"></md-icon>
-                <md-card-content>For inquiries press@retalify.com</md-card-content>
+                <md-card-content flex>Media and press inquiries press@retalify.com</md-card-content>
             </md-card>
         </div>
     </section>

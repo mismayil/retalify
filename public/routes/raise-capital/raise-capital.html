@@ -1,5 +1,5 @@
-<div class="rc-container" layout="column">
-    <div class="rc-section-company-info">
+<div id="rc-container" layout="column" md-theme="retalify-theme">
+    <div id="rc-section-company-info">
         <md-card>
             <md-card-title>COMPANY INFORMATION</md-card-title>
             <md-card-content>
@@ -42,14 +42,14 @@
                     <md-select ng-model="rc.numEmployees">
                         <md-option>1-5</md-option>
                         <md-option>6-10</md-option>
-                        <md-option>10+</md-option>
+                        <md-option>11+</md-option>
                     </md-select>
                 </md-input-container>
             </md-card-content>
         </md-card>
     </div>
 
-    <div class="rc-section-funding-info">
+    <div id="rc-section-funding-info">
         <md-card>
             <md-card-title>FUNDING INFORMATION</md-card-title>
             <md-card-content>
@@ -60,20 +60,28 @@
                         <md-option>2 months</md-option>
                     </md-select>
                 </md-input-container>
-                <md-input-container class="md-block">
-                    <label>Target</label>
-                    <input>
-                </md-input-container>
                 <p>Raise Type</p>
                 <md-radio-group>
                     <md-radio-button value="Equity">Equity</md-radio-button>
                     <md-radio-button value="Convertible Note">Convertible Note</md-radio-button>
                 </md-radio-group>
+                <md-input-container class="md-block">
+                    <label>Target</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Deal Stage</label>
+                    <input>
+                </md-input-container>
+                <md-input-container class="md-block">
+                    <label>Pre-money valuation</label>
+                    <input>
+                </md-input-container>
             </md-card-content>
         </md-card>
     </div>
 
-    <div class="rc-btn-submit">
+    <div id="rc-btn-submit">
         <md-button class="md-primary md-raised">Submit Application</md-button>
     </div>
 </div>
