@@ -6,34 +6,36 @@
 
 #footer-container {
     position: relative;
-    background-color: #424242;
+    background-color: #E0E0E0;
     bottom: 0;
-    margin: 0;
+    left: 0;
+    width: 100%;
+    height: 200px;
 }
 
 #footer-section-subscribe {
     position: absolute;
+    top: 10%;
     left: 10%;
-    top: 5%;
 }
 
 #footer-section-subscribe md-input-container {
-    margin-left: 5%;
+    margin-left: 80px;
 }
 
 #footer-btn-subscribe {
-    margin-left: 5%;
+    margin-left: 50px;
 }
 
 #footer-section-copyright {
     position: absolute;
-    left: 45%;
-    top: 15%;
+    left: 47%;
+    top: 50%;
     color: grey;
 }
 
 #footer-section-social {
     position: absolute;
-    top: 15%;
-    left: 43%;
+    bottom: 0;
+    left: 45%;
 }

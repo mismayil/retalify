@@ -21,37 +21,41 @@
 #home-video {
     height: 700px;
     width: 100%;
-    z-index: 0;
 }
 
 #home-slogan {
     position: absolute;
     font-size: 20px;
-    top: 10%;
-    left: 20%;
+    top: 30%;
+    left: 40%;
     line-height: 1;
     color: whitesmoke;
     font-weight: 500;
 }
 
 #home-btn-raise-capital {
-    position: relative;
-    top: 30%;
-    left: 45%;
+    position: absolute;
+    top: 45%;
+    left: 48%;
 }
 
 #home-btn-down {
-    position: relative;
-    z-index: 1;
-    top: 40%;
+    position: absolute;
+    top: 95%;
     left: 80%;
+    z-index: 1;
 }
 
 #home-mission {
-    position: relative;
-    /*top: 10%;*/
+    position: absolute;
+    top: 85%;
     left: 25%;
     width: 50%;
+}
+
+#home-mission md-card {
+    background-color: #388E3C;
+    color: whitesmoke;
 }
 
 #home-mission md-card-content {

@@ -8,7 +8,6 @@ angular
     .config(config);
 
 function homeController($scope) {
-
 }
 
 function config() {

@@ -24,7 +24,7 @@
 
 #header-title {
     position: absolute;
-    left: 50%;
+    left: 48%;
     font-size: 40px;
     font-weight: 800;
     color: #EF6C00;
@@ -35,7 +35,7 @@
     /*width: 100px;*/
 /*}*/
 
-#header-btn-get-demo {
+#header-actions {
     position: absolute;
     right: 5%;
 }
