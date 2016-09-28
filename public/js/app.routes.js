@@ -22,6 +22,10 @@ function config($routeProvider) {
             templateUrl: 'routes/demo/demo.html',
             controller: 'demoController as demo'
         })
+        .when('/sign-up',{
+            templateUrl: 'routes/sign-up/sign-up.html',
+            controller: 'signUpController as sp'
+        })
         .otherwise({
             redirectTo: '/'
         });
