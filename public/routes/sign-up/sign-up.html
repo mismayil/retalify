@@ -1,17 +1,95 @@
-<div id="sp-container" layout="column">
+<div id="sp-container" layout="column" layout-padding ng-cloak>
+  <div id="user-info" class="sign-up-box">
+    <md-card>
+        <md-card-title>GET ON THE LIST</md-card-title>
+          <md-card-content>
+              <md-input-container class="md-icon-float md-block">
+                <!-- Use floating label instead of placeholder -->
+                <label>Name</label>
+                <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
+                <input ng-model="user.firstName" type="text">
+              </md-input-container>
 
-  <md-content md-theme="docs-dark" layout-gt-sm="row" layout-padding>
-    <div>
-      <md-input-container>
-        <label>Title</label>
-        <input ng-model="user.title">
-      </md-input-container>
+              <md-input-container class="md-icon-float md-block">
+                <label> Last Name </label>
+                <md-icon md-svg-src="img/icons/ic_phone_24px.svg"></md-icon>
+                <input ng-model="user.lastName" type="text">
+              </md-input-container>
 
-      <md-input-container>
-        <label>Email</label>
-        <input ng-model="user.email" type="email">
-      </md-input-container>
-    </div>
-  </md-content>
+              <md-input-container class="md-block">
+                <!-- Use floating placeholder instead of label -->
+                <md-icon md-svg-src="img/icons/ic_create_24px.svg" class="email"></md-icon>
+                <input ng-model="user.email" type="email" placeholder="Email (required)" ng-required="true">
+              </md-input-container>
+          </md-card-content>
+      </md-card>
+  </div>
+
+  <div class="user-skillset">
+     <md-card>
+        <md-card-title>GET ON THE LIST</md-card-title>
+          <md-card-content>
+             <div class="user-skillset-row" layout="row">
+
+               <div class="skill" style="border-right-style:none;border-bottom-style:none;">
+                 <span> Accounting/Finance </span>
+               </div>
+
+               <div class="skill" style="border-right-style:none;border-bottom-style:none;">
+                 <span> Data Science/ Analytics </span>
+               </div>
+
+               <div class="skill" style="border-bottom-style:none">
+                 <span> Legal/Compliance </span>
+               </div>
+
+             </div>
+
+             <div class="user-skillset-row" layout="row">
+
+               <div class="skill" style="border-right-style:none">
+                 <span> Accounting/Finance </span>
+               </div>
+
+               <div class="skill" style="border-right-style:none">
+                 <span> Data Science/ Analytics </span>
+               </div>
+
+               <div class="skill">
+                 <span> Legal/Compliance </span>
+               </div>
+            </div>
+         </md-card-content>
+
+  </div>
+
+  <div id="user-about" class="sign-up-box">
+    <md-card>
+        <md-card-title>ABOUT</md-card-title>
+          <md-card-content>
+              <md-input-container class="md-icon-float md-block">
+                <!-- Use floating label instead of placeholder -->
+                <label>What I do </label>
+                <md-icon md-svg-src="../img/icons/ic_person_24px.svg" class="name"></md-icon>
+                <textarea ng.model="user.achievements"> </textarea>
+              </md-input-container>
+
+              <md-input-container class="md-icon-float md-block">
+                <!-- Use floating label instead of placeholder -->
+                <label>Achievements </label>
+                  <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
+                  <textarea ng.model= "user.achievements"> </textarea>
+              </md-input-container>
+
+              <md-input-container class="md-icon-float md-block">
+                  <label>Country</label>
+                    <md-icon md-svg-src="img/icons/ic_person_24px.svg" class="name"></md-icon>
+                  <md-select ng-model="user.country">
+                    <md-option> USA </md-option>
+                  </md-select>
+              </md-input-container>
+          </md-card-content>
+      </md-card>
+  </div>
 
 </div>

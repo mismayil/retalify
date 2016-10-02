@@ -1,0 +1,30 @@
+#sp-container {
+   position:relative;
+}
+
+.sign-up-box {
+   position: relative;
+   margin: 100px 100px 25px 100px;
+   width: 50%;
+   left: 15%;
+}
+
+
+.user-skillset {
+   position: relative;
+   margin: 80px 100px 25px 100px;
+   width: 50%;
+   left: 15%;
+}
+
+.skill {
+   position: relative;
+   width: 33%;
+   border: 0.5px solid grey;
+
+   padding: 30px 15px 15px 20px;
+}
+
+#first-skill{
+   
+}
