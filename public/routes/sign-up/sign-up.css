@@ -17,14 +17,17 @@
    left: 15%;
 }
 
+
+
 .skill {
    position: relative;
    width: 33%;
+   padding: 20px;
    border: 0.5px solid grey;
-
-   padding: 30px 15px 15px 20px;
+   text-align: center;
 }
 
-#first-skill{
-   
+.skill:hover {
+   cursor:pointer;
+   background-color: lightgrey;
 }
